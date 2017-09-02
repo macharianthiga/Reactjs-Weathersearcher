@@ -4,7 +4,7 @@ var About = React.createClass({
   render: function(){
     return(
       <div>
-          <h1 className="text-center">About</h1>
+          <h1 className="text-center page-title">About</h1>
           <div>
             <p>Welcome to Macharia Nthiga's Weather app. A simple Reactjs application that uses the OpenWeatherMap Api to fetch the weather of any city or town in the world.</p>
             <p>I built this application mostly for fun and also to add to my Github which I rarely update and which was lacking any tangible React projects. Hope you find intuitive and fun to use.
