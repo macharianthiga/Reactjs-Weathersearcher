@@ -6,10 +6,11 @@ var Main = React.createClass({
    return(
      <div>
        <Nav/>
-
-       <div className="row">
-         <div className="columns medium-6 large-6 small-centered">
-           {this.props.children}
+       <div className="wrapper">
+         <div className="row">
+           <div className="columns medium-6 large-6 small-centered">
+             {this.props.children}
+           </div>
          </div>
        </div>
      </div>
